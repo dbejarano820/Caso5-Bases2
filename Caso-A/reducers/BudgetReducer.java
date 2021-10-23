@@ -41,14 +41,14 @@ public class BudgetReducer extends MapReduceBase implements Reducer<Text, TextAr
                         break;
                     }
                 }
-            } else{
+            } else {
                 tmap.put(Long.valueOf(monto), rubro);
             }
 
-            if (tmap.size() > 3)
-            {
-                tmap.remove(tmap.firstKey());
-            }
+        }
+
+        while( tmap.size() > 3) {
+            tmap.remove(tmap.firstKey());
         }
 
         String res = "\n";
