@@ -13,4 +13,4 @@ b)
 Determinar la suma total por partida del presupuesto del poder judicial. 
 Ejemplos de partidas: Remuneraciones, Servicios, Bienes Duraderos, etc
 
-https://youtu.be/O4lT3AF9CWw
+https://youtu.be/JqE0VNHttkk
